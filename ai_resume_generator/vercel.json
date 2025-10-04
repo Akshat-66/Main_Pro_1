@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { 
+      "source": "/((?!static/|assets/|.*\\..*).*)", 
+      "destination": "/index.html" 
+    }
+  ]
+}
